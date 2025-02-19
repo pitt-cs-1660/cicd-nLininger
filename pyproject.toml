@@ -1,5 +1,5 @@
 [project]
-name = "cc-compse"
+name = "cc-compose"
 version = "0.1.0"
 description = "Cloud Computing CS{16,20}60 docker compose project"
 authors = [
