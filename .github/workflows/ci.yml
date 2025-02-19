@@ -75,7 +75,7 @@ jobs:
         name: Authenticate to GCP
         with:
           project_id: 'silent-emissary-451416-u5' # update with your project ID
-          workload_identity_provider: 'projects/162846454695/locations/global/workloadIdentityPools/github/providers/my-repo' # update with your Workload Identity Pool
+          workload_identity_provider: 'projects/162846454695/locations/global/workloadIdentityPools/github' #/providers/my-repo' # update with your Workload Identity Pool
 
       # configure/login with docker
       - name: gcloud Configure Docker
