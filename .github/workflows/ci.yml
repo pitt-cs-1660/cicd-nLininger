@@ -94,5 +94,5 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: us-east4-docker.pkg.dev/silent-emissary-451416-u5/docker-repo
+          tags: us-east4-docker.pkg.dev/silent-emissary-451416-u5/docker-repo/fastapi-server:v2
           
